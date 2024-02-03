@@ -1,0 +1,27 @@
+StandardNet(
+  (pre_process): PreProcessList(
+    in_features=3
+    (processes): ModuleList(
+      (0): PositionalEmbedding(in_features=3, level=6, include_input=True)
+      (1): TriPlaneEmbedding(type=grid, mode=cat)
+    )
+  )
+  (main_net): BaseNet(
+    (module_list): ModuleList(
+      (0): Linear(in_features=45, out_features=128, bias=True)
+      (1): Swish()
+      (2): Linear(in_features=128, out_features=128, bias=True)
+      (3): Swish()
+      (4): Linear(in_features=128, out_features=16, bias=True)
+      (5): Swish()
+      (6): Linear(in_features=16, out_features=16, bias=True)
+      (7): ELU(alpha=1.0)
+      (8): Linear(in_features=16, out_features=16, bias=True)
+      (9): ELU(alpha=1.0)
+      (10): Linear(in_features=16, out_features=128, bias=True)
+      (11): Swish()
+      (12): Linear(in_features=128, out_features=1, bias=True)
+    )
+  )
+  (post_process): Sigmoid()
+)size=33847

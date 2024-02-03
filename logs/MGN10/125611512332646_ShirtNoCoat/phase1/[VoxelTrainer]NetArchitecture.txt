@@ -1,0 +1,11 @@
+StandardNet(
+  (pe): PositionalEmbedding(level=10, include_input=True)
+  (net): Sequential(
+    (0): Linear(in_features=63, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=32, out_features=64, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=64, out_features=1, bias=True)
+    (5): Sigmoid()
+  )
+)size=4225

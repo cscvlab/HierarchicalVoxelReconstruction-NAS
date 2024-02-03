@@ -1,0 +1,14 @@
+accuracy=1.0
+precision=1.0
+recall=1.0
+iou=1.0
+num=32768
+tp=1215
+fp=0
+fn=0
+cd=0.0
+loss=0.0007172127952799201
+size=3137
+architecture={'main': [(48, 'relu'), (16, 'elu'), (24, 'relu'), (1, '')], 'skip': []}
+search_num=1
+

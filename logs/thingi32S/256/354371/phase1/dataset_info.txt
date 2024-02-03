@@ -1,0 +1,16 @@
+downsample_rate=1
+type=sample_base
+resolution=torch.Size([32, 32, 32])
+voxel_size=0.0625
+voxel_num=32768
+object_num=2077
+voxel_rate=0.063385009765625
+support_num=5618
+support_posi=2075
+support_nega=3543
+unsupport_num=27150
+unsupport_posi=2
+unsupport_nega=27148
+scale=5
+support_num_scaled=28090
+shuffle=True

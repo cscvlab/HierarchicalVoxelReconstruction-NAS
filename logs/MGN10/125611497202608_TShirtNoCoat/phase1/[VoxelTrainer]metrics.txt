@@ -1,0 +1,12 @@
+accuracy=1.0
+precision=1.0
+recall=1.0
+iou=1.0
+num=32768
+tp=1295
+fp=0
+fn=0
+cd=0.0
+loss=0.0016190060414373875
+size=5233
+architecture=[(32, 'relu'), (48, 'swish'), (32, 'elu')]

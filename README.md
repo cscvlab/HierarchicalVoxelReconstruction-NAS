@@ -1,1 +1,61 @@
-# HierarchicalVoxelReconstruction-NAS
+# High-fidelity Voxel Reconstruction via Neural Architecture Search and Hierarchical Implicit Representation
+
+Yvlong Wang, Yongdong Huang, Yujie Lu, Nayu Ding, Shen Cai∗∗, Ting Lu. High-fidelity Voxel Reconstruction via Neural Architecture Search and Hierarchical Implicit Representation.
+
+![Figure2](figure/Figure2.png)
+
+
+
+## Methodology
+
+We propose a novel neural architecture search (NAS) based hierarchical voxel reconstruction technique. Leveraging NAS, our method searches a tailored multi-layer perceptron (MLP) network to accurately predict binary classification probabilities of voxels, enabling efficient end-to-end reconstruction of individual voxel models. We enhance our approach with a hierarchical reconstruction strategy and tri–plane encoding, facilitating the high-fidelity compressed reconstruction. 
+
+
+
+## Get Started
+
+### Environments
+
+Setup conda environments
+
+```shell
+conda env create -f environment.yml
+```
+
+Install the dependencies:
+
+```shell
+cd dependencies/libdualVoxel
+pip install .
+```
+
+### Prepare dataset
+
+The mesh models are loaded by trimesh. The voxel is output in *.npz* format.
+
+```shell
+python scripts/prepare_dataset.py --mesh_dir data/thingi32 --voxel_out data/thingi32_voxel --name 441708 --resolution 256
+```
+
+## Training
+
+```shell
+python scripts/train.py --voxel data/thingi32_voxel/256/441708.npz --exp_name logs/441708
+```
+
+We put the pre-trained network in `./logs`.
+
+
+
+## Experimental Results
+
+![Figure1](figure/Figure1.png)
+
+
+
+## License
+
+This project is licensed under the terms of the GPL3.0 License (see `LICENSE` for details).
+
+
+

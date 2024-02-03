@@ -1,0 +1,16 @@
+voxel=data/thingi32_voxel/256/441708.npz
+exp_name=logs/441708
+p1_reso=32
+p1_epoch=250
+p1_nas_e2=40
+p1_nas_e3=100
+p2_epoch=1000
+p2_nas_e2=60
+p2_nas_e3=200
+dataset_batch_size=4096
+enable_pe=True
+pe_level=6
+pe_ii=True
+enable_triplane=True
+triplane_reso=32
+triplane_channel=2

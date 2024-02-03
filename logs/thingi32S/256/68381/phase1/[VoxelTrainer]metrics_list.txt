@@ -1,0 +1,28 @@
+accuracy=0.999847412109375
+precision=1.0
+recall=0.9970483779907227
+iou=0.9970483779907227
+num=32768
+tp=1689
+fp=0
+fn=5
+cd=3.461937720285313e-05
+loss=0.0008688641828484833
+size=4197
+architecture={'main': [(48, 'relu'), (16, 'elu'), (36, 'swish'), (16, 'elu'), (16, 'relu'), (1, '')], 'skip': []}
+search_num=1
+
+accuracy=1.0
+precision=1.0
+recall=1.0
+iou=1.0
+num=32768
+tp=1689
+fp=0
+fn=0
+cd=0.0
+loss=0.00010209043830400333
+architecture={'main': [(48, 'relu'), (16, 'elu'), (36, 'swish'), (16, 'elu'), (16, 'relu'), (1, '')], 'skip': []}
+size=4197
+search_num=2
+

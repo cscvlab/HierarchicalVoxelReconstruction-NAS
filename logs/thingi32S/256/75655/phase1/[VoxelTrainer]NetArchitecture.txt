@@ -1,0 +1,15 @@
+StandardNet(
+  (pre_process): PositionalEmbedding(in_features=3, level=10, include_input=True)
+  (main_net): BaseNet(
+    (module_list): ModuleList(
+      (0): Linear(in_features=63, out_features=64, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=64, out_features=16, bias=True)
+      (3): ReLU()
+      (4): Linear(in_features=16, out_features=40, bias=True)
+      (5): ELU(alpha=1.0)
+      (6): Linear(in_features=40, out_features=1, bias=True)
+    )
+  )
+  (post_process): Sigmoid()
+)size=5857

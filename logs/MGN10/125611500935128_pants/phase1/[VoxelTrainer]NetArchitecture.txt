@@ -1,0 +1,21 @@
+StandardNet(
+  (pe): PositionalEmbedding(level=10, include_input=True)
+  (net): Sequential(
+    (0): Linear(in_features=63, out_features=48, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=48, out_features=16, bias=True)
+    (3): ELU(alpha=1.0)
+    (4): Linear(in_features=16, out_features=40, bias=True)
+    (5): ELU(alpha=1.0)
+    (6): Linear(in_features=40, out_features=16, bias=True)
+    (7): ELU(alpha=1.0)
+    (8): Linear(in_features=16, out_features=16, bias=True)
+    (9): Swish()
+    (10): Linear(in_features=16, out_features=16, bias=True)
+    (11): ReLU()
+    (12): Linear(in_features=16, out_features=40, bias=True)
+    (13): ELU(alpha=1.0)
+    (14): Linear(in_features=40, out_features=1, bias=True)
+    (15): Sigmoid()
+  )
+)size=6457

@@ -1,0 +1,12 @@
+accuracy=1.0
+precision=1.0
+recall=1.0
+iou=1.0
+num=32768
+tp=3411
+fp=0
+fn=0
+cd=0.0
+loss=0.0001410341210430488
+size=15361
+architecture={'main': [(64, 'relu'), (40, 'swish'), (48, 'relu'), (40, 'elu'), (64, 'swish'), (32, 'relu'), (1, '')], 'skip': []}

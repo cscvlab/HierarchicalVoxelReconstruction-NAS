@@ -1,0 +1,12 @@
+type=sample_in_mask_with_neighbour
+resolution=torch.Size([256, 256, 256])
+voxel_size=0.0078125
+voxel_num=16777216
+object_num=86767
+voxel_rate=0.005171716213226318
+kernel_num=86767
+support_sum=256645
+unsupport_sum=414549
+scale=2
+support_num_scaled=513290
+shuffle=True
