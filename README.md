@@ -49,6 +49,7 @@ We put the pre-trained network in `./logs`.
 
 ## Experimental Results
 Visualization of our voxel reconstruction results at $256^3$ resolution. The models in the first to third rows are watertight objects, indoor scenes and non-watertight clothes, respectively. The values below each model are IoU (\%)~$\bm{\uparrow}$, $\textit{L}_2$-CD ($\times$$10^{-6}$)~$\bm{\downarrow}$, and the number of network parameters~$\bm\downarrow$, respectively.
+
 ![Figure1](figure/Figure1.png)
 
 
