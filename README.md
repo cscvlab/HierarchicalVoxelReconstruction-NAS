@@ -1,6 +1,6 @@
 # High-fidelity Voxel Reconstruction via Neural Architecture Search and Hierarchical Implicit Representation
 
-Yvlong Wang, Yongdong Huang, Yujie Lu, Nayu Ding, Shen Cai∗∗, Ting Lu. High-fidelity Voxel Reconstruction via Neural Architecture Search and Hierarchical Implicit Representation.
+Yulong Wang, Yongdong Huang, Yujie Lu, Nayu Ding, Shen Cai∗, Ting Lu. High-fidelity Voxel Reconstruction via Neural Architecture Search and Hierarchical Implicit Representation.
 
 ![Figure2](figure/Figure2.png)
 
@@ -48,7 +48,7 @@ We put the pre-trained network in `./logs`.
 
 
 ## Experimental Results
-
+Visualization of our voxel reconstruction results at $256^3$ resolution. The models in the first to third rows are watertight objects, indoor scenes and non-watertight clothes, respectively. The values below each model are IoU (\%)~$\bm{\uparrow}$, $\textit{L}_2$-CD ($\times$$10^{-6}$)~$\bm{\downarrow}$, and the number of network parameters~$\bm\downarrow$, respectively.
 ![Figure1](figure/Figure1.png)
 
 
