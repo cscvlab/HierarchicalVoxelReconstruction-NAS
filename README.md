@@ -2,18 +2,27 @@
 
 This repository contains the implementation of the paper:
 
-__Authors:__ Yulong Wang, Yongdong Huang, Yujie Lu, Nayu Ding, Shen Cai*, Ting Lu.
-High-fidelity Voxel Reconstruction via Neural Architecture Search and Hierarchical Implicit Representation.
+**High-fidelity Voxel Reconstruction via Neural Architecture Search and Hierarchical Implicit Representation.**
 
-![Figure2](figure/Figure2.png)
+__Authors:__ Yulong Wang, Yongdong Huang, Yujie Lu, Nayu Ding, Siyu Zhang, Xianan Xu, Shen Cai*, Ting Lu.
 
+![Figure2](figure/Figure2.jpg)
 
+## Visualization
+
+| Bird Cage | T-shirt | Room1 |
+| :----: | :----: | :----: |
+| ![](figure/bird_cage.gif) | ![](figure/cloth.gif) | ![](figure/room1.gif) |
+
+| Ship | Pants | Room2 |
+| :----: | :----: | :----: |
+| ![](figure/ship.gif) | ![](figure/pants.gif) | ![](figure/room2.gif) |
 
 ## Methodology
 
 We propose a novel neural architecture search (NAS) based hierarchical voxel reconstruction technique. Leveraging NAS, our method searches a tailored multi-layer perceptron (MLP) network to accurately predict binary classification probabilities of voxels, enabling efficient end-to-end reconstruction of individual voxel models. We enhance our approach with a hierarchical reconstruction strategy and tri–plane encoding, facilitating the high-fidelity compressed reconstruction. 
 
-The initial conference version of this paper [(Huang et al., 2022)](https://github.com/cscvlab/VoxelReconstruction-NAS), presented as an oral representation at ICPR 2022, was limited to a single-stage voxel reconstruction process exclusively for watertight objects. This journal version explores several enhancements aimed at facilitating high-fidelity reconstruction of a broad range of models, including those that are not watertight.
+The initial conference version of this paper [(Huang et al., 2022)](https://arxiv.org/abs/2202.13313), presented as an oral representation at ICPR 2022, was limited to a single-stage voxel reconstruction process exclusively for watertight objects. This journal version explores several enhancements aimed at facilitating high-fidelity reconstruction of a broad range of models, including those that are not watertight.
 
 ## Get Started
 
