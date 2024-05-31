@@ -25,7 +25,7 @@ The initial conference version of this paper [(Huang et al., 2022)](https://arxi
 | ![](figure/ship.gif) | ![](figure/pants.gif) | ![](figure/room2.gif) |
 
 ## Other Results
-Other voxel reconstruction results at $256^3$ resolution. The models in the first to third rows are watertight objects, indoor scenes and non-watertight clothes, respectively. The values below each model are IoU (\%) $\uparrow$, $\textit{L}_2$-CD ($\times 10^{-6}$) $\downarrow$, and the number of network parameters $\downarrow$, respectively.
+Other voxel reconstruction results at $256^3$ resolution. The models in the first to third rows are watertight objects, indoor scenes and non-watertight clothes, respectively. The values below each model are IoU (\%) $\uparrow$, $\textit{L}_2$-CD ($\times 10^{6}$) $\downarrow$, and the number of network parameters $\downarrow$, respectively.
 
 ![Figure1](figure/Figure1.jpg)
 
